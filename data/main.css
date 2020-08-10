@@ -1,0 +1,28 @@
+#buttonGrid button{
+  border-radius: 0;
+  font-size: 13pt;
+}
+
+#buttonGrid button.top-left{
+  border-top-left-radius: 10px;
+}
+#buttonGrid button.top-right{
+  border-top-right-radius: 10px;
+}
+#buttonGrid button.bottom-left{
+  border-bottom-left-radius: 10px;
+}
+#buttonGrid button.bottom-right{
+  border-bottom-right-radius: 10px;
+}
+
+decoration
+{  
+  box-shadow: 0px 0px 0px 2px rgba(170, 170, 170, 0.5);
+}
+
+decoration:backdrop
+{
+  box-shadow: 0px 0px 0px 2px rgba(170, 170, 170, 0.5);
+}
+
